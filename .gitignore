@@ -1,3 +1,14 @@
 __pycache__
 .idea/
+
 DoiPangloss/data/
+DoiPangloss/constantes.py
+DoiPangloss/data/apiMetadonnees
+DoiPangloss/data/apiUrl
+DoiPangloss/data/metadata_cocoon.xml
+DoiPangloss/data/metadata_cocoon_ok.xml
+DoiPangloss/data/testPhrase/metadataPhrase.xml
+DoiPangloss/data/testRecord/metadataRecord.xml
+DoiPangloss/data/testURL_Phrase/urlPhrase.txt
+DoiPangloss/data/testURL_Record/urlRecord.txt
+

@@ -11,8 +11,10 @@ NAMESPACES = {
             "oai" : "http://www.openarchives.org/OAI/2.0/",
             "doi" : "http://datacite.org/schema/kernel-4"
         }
-# 10.5072 10.24397
-DOI_PREFIX = "10.5072/pangloss-"
+
+# DOI_PREFIX = "10.5072/pangloss-"
+DOI_PREFIX = "10.24397/pangloss-"
+
 SHOW_TEXT = "http://lacito.vjf.cnrs.fr/pangloss/corpus/show_text.php?id="
 IDREF = "&idref="
 SHOW_OTHER = "http://lacito.vjf.cnrs.fr/pangloss/corpus/show_other.php?id="
@@ -23,8 +25,10 @@ USERNAME = ""
 PASSWORD = ""
 ENDPOINTMETADATA = "https://mds.datacite.org/metadata/"
 ENDPOINTDOI = "https://mds.datacite.org/doi/"
+RESTDOI = "https://api.datacite.org/dois/"
 CRITICAL_LOG = 'critical.log'
-# chager le préfix pour la phase de production
-DOI_PANGLOSS = "10.5072/Pangloss"
+# chager le préfix pour la phase de production 10.24397
+# DOI_PANGLOSS = "10.5072/Pangloss"
+DOI_PANGLOSS = "10.24397/Pangloss"
 FILE_API_URL = './data/apiUrl'
 FILE_API_METADATA = './data/apiMetadonnees'

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<harvest>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2018-07-05T21:44:00Z</responseDate>
+<request verb="Identify">http://cocoon.huma-num.fr/crdo_servlet/oai-pmh</request>
+<Identify>
+	<repositoryName>COllections de COrpus Oraux Numeriques (CoCoON ex-CRDO)</repositoryName>
+	<baseURL>http://cocoon.huma-num.fr/crdo_servlet/oai-pmh</baseURL>
+	<protocolVersion>2.0</protocolVersion>
+	<adminEmail>michel.jacobson@gmail.com</adminEmail>
+	<earliestDatestamp>2014-03-27</earliestDatestamp>
+	<deletedRecord>transient</deletedRecord>
+	<granularity>YYYY-MM-DD</granularity>
+	<description>
+		<oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+			<scheme>oai</scheme>
+			<repositoryIdentifier>crdo.vjf.cnrs.fr</repositoryIdentifier>
+			<delimiter>:</delimiter>
+			<sampleIdentifier>oai:crdo.vjf.cnrs.fr:crdo-NEM_BAC</sampleIdentifier>
+		</oai-identifier>
+	</description>
+	<description>
+		<olac-archive xmlns="http://www.language-archives.org/OLAC/1.1/olac-archive" currentAsOf="2018-07-28" type="institutional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/olac-archive http://www.language-archives.org/OLAC/1.1/olac-archive.xsd">
+			<archiveURL>http://cocoon.huma-num.fr/exist/crdo/</archiveURL>
+			<participant email="cocoon_curator@huma-num.fr" name="CNRS / COCOON" role="curator"/>
+			<participant email="guillaume@vjf.cnrs.fr" name="Severine Guillaume" role="Project manager"/>
+			<participant email="michel.jacobson@gmail.com" name="Michel Jacobson" role="Archivist"/>
+			<institution>COllections de COrpus Oraux Numeriques (CoCoON ex-CRDO)</institution>
+			<institutionURL>http://cocoon.huma-num.fr</institutionURL>
+			<shortLocation>Paris, France</shortLocation>
+			<location>TGIR Huma-Num, 4, rue Lhomond, Paris 75005, FRANCE</location>
+			<synopsis>Author self-archived e-documents (linguistic data).</synopsis>
+			<access>The Copyright of Archive documents is held by the authors. Non-commercial use for research purposes is authorized.</access>
+		</olac-archive>
+	</description>
+	<description>
+		<eprints xmlns="http://www.openarchives.org/OAI/1.1/eprints" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
+			<content><text>Author self-archived e-documents (linguistic data)</text></content>
+			<metadataPolicy> <URL>http://creativecommons.org/licenses/by-nc-nd/2.5/</URL></metadataPolicy>
+			<dataPolicy><text>Full content may not be harvested by robots without prior approval of Cocoon curator.</text></dataPolicy>
+			<submissionPolicy><text>Submission-data must provided from french academic community.</text></submissionPolicy>
+		</eprints>
+	</description>
+</Identify>
+</OAI-PMH>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2018-07-05T21:44:00Z</responseDate>
+<request verb="ListMetadataFormats">http://cocoon.huma-num.fr/crdo_servlet/oai-pmh</request>
+<ListMetadataFormats>
+<metadataFormat>
+	<metadataPrefix>oai_dc</metadataPrefix>
+	<schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>
+	<metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>
+</metadataFormat>
+<metadataFormat>
+	<metadataPrefix>olac</metadataPrefix>
+	<schema>http://www.language-archives.org/OLAC/1.1/olac.xsd</schema>
+	<metadataNamespace>http://www.language-archives.org/OLAC/1.1/</metadataNamespace>
+</metadataFormat>
+<metadataFormat>
+	<metadataPrefix>crdo_dcq</metadataPrefix>
+	<schema>http://cocoon.huma-num.fr/schemas/dcq.xsd</schema>
+	<metadataNamespace>http://crdo.risc.cnrs.fr/schemas/dcq/</metadataNamespace>
+</metadataFormat>
+<metadataFormat>
+	<metadataPrefix>mods</metadataPrefix>
+	<schema>http://www.loc.gov/standards/mods/v3/mods-3-5.xsd</schema>
+	<metadataNamespace>http://www.loc.gov/mods/v3</metadataNamespace>
+</metadataFormat>
+</ListMetadataFormats>
+</OAI-PMH>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2018-07-05T21:44:00Z</responseDate>
+<request verb="ListSets">http://cocoon.huma-num.fr/crdo_servlet/oai-pmh</request>
+<ListSets>
+<set>
+        <setSpec>Lacito</setSpec>
+        <setName>Collection Pangloss</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Collection Pangloss</dc:title>
+                <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+                <dc:contributor>Laboratoire de langues et civilisations à tradition orale (compiler)</dc:contributor>
+                <dc:description xml:lang="fr">La Collection Pangloss offre, en libre accès, des documents linguistiques sonores, avec une spécialité de langues "rares" ou peu étudiées. Son but est de contribuer à la documentation et à l'étude du patrimoine humain que représentent les langues du monde. Les documents présentés contiennent en majeure partie de la parole spontanée, enregistrée dans son contexte social et transcrit en consultation avec les locuteurs. On y trouvera aussi des séances d'enquête et des listes de mots. Ces documents ont été enregistrés et annotés par des chercheurs d'horizons très variés, dont les chercheurs du laboratoire LACITO-CNRS. La gestion de la collection est assurée par une équipe du LACITO.</dc:description>
+                <dc:description xml:lang="en">The Pangloss Collection provides free access to recordings of "rare" or little-endowed languages. Its goal is to contribute to the documentation and study of a precious human heritage: the world's languages. The documents mostly consist of narratives ("spontaneous speech"), recorded in their cultural context and transcribed in consultation with native speakers. The Pangloss Collection also contains elicitation sessions and lists of words. These documents were recorded and annotated by a number of researchers, including the members of the LACITO-CNRS research centre. The Pangloss Collection is managed by a team of members of the LACITO research centre.</dc:description>
+                <dc:subject xml:lang="fr">Fonds sonores, en accès libre, de langues « rares » / peu dotées au plan informatique</dc:subject>
+                <dc:subject>An open-access collection of recordings of "rare" languages / under-resourced languages</dc:subject>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2010-06-26</dc:date>
+                <dc:identifier>https://doi.org/10.24397/pangloss</dc:identifier>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Linguistique</setSpec>
+        <setName>Domaine Linguistique</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Domain Linguistique</dc:title>
+                <dc:publisher>CNRS/COCOON</dc:publisher>
+                <dc:description xml:lang="fr">Domaine Linguistique</dc:description>
+                <dc:type>Collection</dc:type>
+                <dc:date>2017-07-04</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>default_set</setSpec>
+        <setName>Ressources non classées</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Ressources non classées</dc:title>
+                <dc:date>2016-04-23</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>LanguesDeFrance</setSpec>
+        <setName>Corpus de la parole</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Corpus de la parole</dc:title>
+                <dc:publisher>Délégation générale à la langue française et aux langues de France</dc:publisher>
+                <dc:publisher>Typologie et universaux linguistiques</dc:publisher>
+                <dc:publisher>Institut de linguistique Française</dc:publisher>
+                <dc:contributor>Baude, Olivier (compiler)</dc:contributor>
+                <dc:description xml:lang="fr">Le programme Corpus de la parole du ministère de la culture et de la communication a pour
+                    but de valoriser le patrimoine linguistique de la France. Il donne accès en ligne à des fonds sonores transcrits et
+                    numérisés, en français et dans différentes langues parlées sur le territoire national, en métropole et outremer. 
+                    Ces langues sont considérées comme "Langues de France"..</dc:description>
+                <dc:type>Collection</dc:type>
+                <dc:subject xml:lang="fr">Le français et les langues de France</dc:subject>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2010-06-26</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Dallith</setSpec>
+        <setName>Documentation et Archivage Langues et LInguistique Tibétaines et Himalayennes</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Documentation et Archivage Langues et LInguistique Tibétaines et Himalayennes</dc:title>
+                <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+                <dc:publisher>Université de Virginie</dc:publisher>
+                <dc:contributor>Tournadre, Nicolas (compiler)</dc:contributor>
+                <dc:contributor>Germano, David (compiler)</dc:contributor>
+                <dc:subject>Langues tibétaines et himalayennes</dc:subject>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2010-06-26</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>AuCo</setSpec>
+        <setName>corpus audio de langues du Vietnam et des pays voisins</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">AuCo: corpus audio de langues du Vietnam et des pays voisins</dc:title>
+                <dc:description xml:lang="fr">La collection AuCo (Audio Corpora) regroupe des documents linguistiques sonores
+                    de langues du Vietnam et des pays voisins, y compris dans des langues "rares" particulièrement peu dotées
+                    au plan informatique. AuCo est un acronyme pour “Audio Corpora”: corpus audio. C’est également une référence
+                    à la fée ÂuCơ, qui mit au monde une grande poche d'où sortirent cents œufs qui donnèrent naissance aux Cent
+                    Peuples (Bách Việt), ancêtres légendaires des Vietnamiens et de la multitude de groupes ethniques de la
+                    région. Les points ronds qui composent le logo de la collection AuCo/ÂuCơ sont une allusion à ces cent
+                    œufs, symbole de la diversité culturelle et linguistique que reflète la collection. Le but de la
+                    collection AuCo est de recueillir les documents recueillis par les chercheurs au fil de leur activité de
+                    recherche. Elle remplit par là une fonction importante: inscrire la collecte de données orales dans une
+                    perspective cumulative. La préparation, la réalisation et l'annotation d’enregistrements sont des tâches
+                    gourmandes en temps; au prix d’un léger surcroît de travail, il est possible de préparer les données de
+                    façon à ce qu’elles puissent être réutilisées par d’autres, pour des finalités variées (notamment: analyse
+                    phonétique/phonologique, traitement automatique de la parole, mais aussi didactique des langues/projets
+                    de revitalisation de langues en danger). La collection AuCo a vocation à contribuer à la documentation
+                    du patrimoine humain que représentent les langues du monde; elle a aussi vocation à faciliter les travaux
+                    de recherche interdisciplinaires associant ingénieurs et linguistes, autour de techniques communes.
+                    Il est prévu de verser à la collection des documents de types très divers, et de valeur patrimoniale très
+                    inégale: des récits traditionnels aux documents lus, en passant par les dialogues et les enquêtes de vocabulaire;
+                    des collections uniques datant de plusieurs décennies, et concernant des parlers aujourd'hui en voie de
+                    disparition, jusqu'au tout-venant des enregistrements de langues nationales (réalisés ponctuellement pour
+                    les besoins d'études phonétiques/phonologiques ou d'outils de traitement automatique). Les utilisations
+                    nouvelles et créatives des données sont rarement prévisibles; d’où le choix de ne fermer la collection
+                    AuCo à aucun type de données. Les documents de la collection AuCo ont été enregistrés et transcrits/annotés
+                    par des chercheurs d'horizons très variés, dont les membres du département "Parole et Communication" de
+                    l'Institut de recherche international MICA (HUST – CNRS/UMI-2954 – Grenoble INP, Hanoi University of
+                    Science and Technology). Leur préparation pour archivage et diffusion en ligne est assuré par des membres
+                    du département “Parole et Communication” de l'Institut de recherche international MICA. Archivage pérenne
+                    et diffusion en ligne sont assurés par la grille de services de la Très Grande Infrastructure de Recherche Huma-Num (en partenariat
+                    avec le CINES et l’IN2P3); la préparation des documents en vue de leur dépôt s'effectue avec le concours des
+                    deux services versants pour les données orales, collection Pangloss / réservoir de données CoCoON (CNRS-LACITO)
+                    et Speech and Language Data Repository: SLDR (CNRS-LPL).</dc:description>
+                <dc:publisher>Multimédia, Informations, Communication et Applications</dc:publisher>
+                <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+                <dc:contributor>Multimédia, Informations, Communication et Applications (compiler)</dc:contributor>
+                <dc:subject xml:lang="fr">Fonds sonores, en accès libre, de langues du Vietnam et des pays voisins, y compris des langues
+                    « rares », particulièrement peu dotées au plan informatique</dc:subject>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2013-11-11</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Eslo</setSpec>
+        <setName>Corpus d'Orléans</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Corpus d'Orléans</dc:title>
+                <dc:publisher>Centre Orléanais de Recherche en Anthropologie et Linguistique</dc:publisher>
+                <dc:contributor>Baude, Olivier (compiler)</dc:contributor>
+                <dc:description xml:lang="fr">Corpus linguistique composé d'enregistrements sonores et de leurs transcriptions réalisés à Orléans entre 1968 et 1974 (ESLO1) et à partir de 2008 (ESLO2). Entre 1969 et 1974, des universitaires britanniques ont réalisé un premier portrait sonore de la ville en enregistrant plusieurs centaines d'Orléanais dans la vie de tous les jours. Il s'agit du plus important témoignage sur le français des années soixante-dix. En 2014, quarante ans après cette première étude, l'université d'Orléans, en partenariat avec le CNRS, le Ministère de la Culture et la Région Centre, renouvelle l'expérience en procédant à des enregistrements avec des habitants de toute l'agglomération.</dc:description>
+                <dc:type>Collection</dc:type>
+                <dc:subject xml:lang="fr">Français</dc:subject>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2010-06-26</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>IHTP</setSpec>
+        <setName>Collections sonores de l'Institut d'histoire du temps présent (IHTP).</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Collection de l'Institut d'histoire du temps présent (IHTP)</dc:title>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Communication individuelle des enregistrements numérisés sur place dans les locaux de l'IHTP sauf restriction mentionnée. Pour la consultation des archives papier, contacter l'IHTP</dc:rights>
+                <dc:description xml:lang="fr">Collection de l'Institut d'histoire du temps présent (IHTP).</dc:description>
+                <dc:language xml:lang="fr">Français</dc:language>
+                <dc:publisher>Institut d'histoire du temps présent</dc:publisher>
+                <dc:contributor>Institut d'histoire du temps présent (depositor)</dc:contributor>
+                <dc:rights>Copyright (c) CNRS-IHTP</dc:rights>
+                <dc:rights xml:lang="fr">Copie et reproduction interdites ou soumises à autorisation écrite de l'IHTP.</dc:rights>
+                <dc:date>2014-11-25</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Histoire</setSpec>
+        <setName>Domaine Histoire</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Domain Histoire</dc:title>
+                <dc:publisher>CNRS/COCOON</dc:publisher>
+                <dc:description xml:lang="fr">Domaine Histoire</dc:description>
+                <dc:type>Collection</dc:type>
+                <dc:date>2017-07-04</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>EpicNepal</setSpec>
+        <setName>Epic Nepal</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Epopee Népal</dc:title>
+                <dc:description>Language and oral literature of western Nepal" is centered on corpora of
+                    recorded materials, beginning with recordings made in 1969 by two French scholars,
+                    the anthropologist Marc Gaborieau and the ethnomusicologist Mireille
+                    Helffer</dc:description>
+                <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+                <dc:publisher>Centre d'Etudes Himalayennes</dc:publisher>
+                <dc:contributor>Michailovsky, Boyd (compiler)</dc:contributor>
+                <dc:subject>Language and oral literature of western Nepal</dc:subject>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2013-07-05</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>CRBC</setSpec>
+        <setName>Collections du Centre de recherche bretonne et celtique</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Collections du Centre de recherche bretonne et celtique</dc:title>
+                <dc:publisher>Centre de recherche bretonne et celtique</dc:publisher>
+                <dc:type>Collection</dc:type>
+                <dc:date>2015-05-05</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Llacan</setSpec>
+        <setName>Collections sonores du LLACAN</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Collections sonores du LLACAN</dc:title>
+                <dc:publisher>Langage, langues et cultures d'afrique noire</dc:publisher>
+                <dc:contributor>Langage, langues et cultures d'afrique noire (depositor)</dc:contributor>
+                <dc:type>Collection</dc:type>
+                <dc:date>2016-04-23</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>VN_Attitude</setSpec>
+        <setName>Corpus audio, vidéo et électroglottographique pour l’étude des attitudes en langue vietnamienne</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Vietnamese Attitudes (VnA): Corpus audio, vidéo et électroglottographique pour l’étude des attitudes en langue vietnamienne</dc:title>
+                <dc:description>Le corpus Vietnamese Attitudes (VnA) est un corpus audio-visuel pour l’étude des attitudes simulées en langue vietnamienne
+                    en vue de leur caractérisation et de la synthèse de la parole expressive en vietnamien. Il comporte un ensemble 
+                    d’enregistrements vidéo de 125 phrases composées de une à huit syllabes. Ces phrases ont été produites en chambre
+                    sourde par deux locuteurs (un homme et une femme, originaires de Hanoi) avec 16 attitudes ou expressions : déclaration,
+                    question simple, exclamation de surprise neutre, exclamation de surprise positive, exclamation de surprise négative,
+                    évidence, doute/incrédulité, autorité, irritation, ironie sarcastique, mépris, politesse, admiration, maternelle
+                    séduction et familière. Les phrases contiennent des syllabes portant les différents tons (2, 3, 4, 5, 6, 5b, 6b)
+                    en position de début, milieu et fin permettant l’étude de l’interaction des tons lexicaux avec la prosodie. Une
+                    répétition parmi les trois effectuées par le locuteur masculin comporte également des signaux électro-glotto-graphiques.</dc:description>
+                <dc:publisher>Multimédia, Informations, Communication et Applications</dc:publisher>
+                <dc:contributor>Mac, Dang Khoa (depositor)</dc:contributor>
+                <dc:subject xml:lang="fr">Corpus audio-visuel pour l’étude des attitudes simulées en langue vietnamienne</dc:subject>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:date>2015-02-26</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>ALCAM</setSpec>
+        <setName>Atlas Linguistique des Côtes de l'Atlantique et de la Manche</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Atlas Linguistique des Côtes de l'Atlantique et de la Manche (ALCAM)</dc:title>
+                <dc:publisher>Centre de Recherche Bretonne et Celtique</dc:publisher>
+                <dc:contributor>Le Dû, Jean (depositor)</dc:contributor>
+                <dc:type>Collection</dc:type>
+                <dc:language xml:lang="fr">Français</dc:language>
+                <dc:language xml:lang="fr">Breton</dc:language>
+                <dc:subject xml:lang="fr">Breton</dc:subject>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:rights>http://creativecommons.org/licenses/by-nc-nd/2.5/</dc:rights>
+                <dc:date>2015-04-22</dc:date>
+                <dc:description xml:lang="fr">L'ALCAM est un projet d'atlas linguistique, mis en place par Patrice Brasseur dans les années 1980 qui comprend 82 points d’enquête depuis Bray-Dunes en Flandre française jusqu’à Ciboure au Pays Basque français. Le questionnaire totalise 400 questions concernant la description du rivage et des éléments marins, la navigation, la pêche, la faune et la flore marines. En Bretagne celtique, une vingtaine d’enquêtes ont été réalisées à partir de 1983 par Jean Ropars, Claude Guillou, Armelle Audic et Jean-Michel Menesguen et coordonnées par Jean Le Dû alors professeur de celtique à l’université de Brest.</dc:description>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>JSFA</setSpec>
+        <setName>Judeo-Spanish in France Archive</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Judeo-Spanish in France Archive</dc:title>
+                <dc:publisher>Langues - Musiques - Sociétés</dc:publisher>
+                <dc:contributor>Varol, Marie-Christine (compiler)</dc:contributor>
+                <dc:type>Collection</dc:type>
+                <dc:language xml:lang="fr">Judéo-espagnol</dc:language>
+                <dc:subject xml:lang="fr">Judéo-espagnol</dc:subject>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:rights>http://creativecommons.org/licenses/by-nc-nd/2.5/</dc:rights>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>NALBB</setSpec>
+        <setName>Nouvel Atlas Linguistique de la Basse-Bretagne</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:language xml:lang="fr">Breton</dc:language>
+                <dc:coverage xml:lang="fr">France, Bretagne</dc:coverage>
+                <dc:publisher>Centre de Recherche Bretonne et Celtique</dc:publisher>
+                <dc:contributor>Le Dû, Jean (depositor)</dc:contributor>
+                <dc:contributor>Hughes, Art (interviewer)</dc:contributor>
+                <dc:contributor>Giraudon, Daniel (interviewer)</dc:contributor>
+                <dc:contributor>Gouédic, Patrick (interviewer)</dc:contributor>
+                <dc:contributor>Humphreys, Humphrey (interviewer)</dc:contributor>
+                <dc:contributor>Le Besco, Patrick (interviewer)</dc:contributor>
+                <dc:contributor>Le Dû, Jean (interviewer)</dc:contributor>
+                <dc:contributor>Le Goff, Michel (interviewer)</dc:contributor>
+                <dc:contributor>Miossec, Yves (interviewer)</dc:contributor>
+                <dc:contributor>Philippot, Michel (interviewer)</dc:contributor>
+                <dc:contributor>Plourin, Jean-Yves (interviewer)</dc:contributor>
+                <dc:contributor>Ropars, Jean (interviewer)</dc:contributor>
+                <dc:contributor>Salou, Jean (interviewer)</dc:contributor>
+                <dc:contributor>Tanguy, Bernard (interviewer)</dc:contributor>
+                <dc:contributor>Thépaut, Dominique (interviewer)</dc:contributor>
+                <dc:contributor>Hewitt, Steve (interviewer)</dc:contributor>
+                <dc:contributor>Riou, Yann (interviewer)</dc:contributor>
+                <dc:rights>Copyright (c) Le Dû, Jean</dc:rights>
+                <dc:rights>http://creativecommons.org/licenses/by-nc-nd/2.5/</dc:rights>
+                <dc:date>2014-10-11</dc:date>
+                <dc:title xml:lang="fr">Enquêtes dialectologiques en vue de constituer le Nouvel Atlas Linguistique de la Basse-Bretagne</dc:title>
+                <dc:description xml:lang="fr">Enregistrements des enquêtes dialectologiques accompagnés éventuellement de transcription collectés en vue de constituer le Nouvel Atlas Linguistique de la Basse-Bretagne dirigé par M. Jean Le Dû.</dc:description>
+                <dc:description xml:lang="fr">Le Nouvel Atlas Linguistique de la Basse-Bretagne (Finistère et partie occidentale des Côtes-d’Armor et du Morbihan) étudie la variation géographique de la langue bretonne aux plans phonétique, morphologique et lexical. Des informateurs bien ancrés dans leur terroir d'origine ont fourni des termes simples de la vie courante : nature, météorologie, animaux, vie quotidienne, etc. L'enquête initiale, commencée en 1969, a été suivie d’une deuxième enquête destinée à combler certaines lacunes et à préciser certaines notions. Tous les entretiens ont été enregistrés intégralement sur place par les divers enquêteurs, ce qui a permis à l'auteur de transcrire lui-même l'ensemble des réponses, afin de préserver l'homogénéité de la notation phonétique. Le réseau couvre presque une commune de Basse-Bretagne sur trois (en tout 187 points).</dc:description>
+                <dc:date>1969</dc:date>
+                <dc:type>Collection</dc:type>
+                <dc:rights>Freely available for non-commercial use</dc:rights>
+                <dc:subject xml:lang="fr">Breton</dc:subject>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+<set>
+        <setSpec>Anthropologie sociale et ethnologie</setSpec>
+        <setName>Domaine Anthropologie sociale et ethnologie</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:title xml:lang="fr">Domain Anthropologie sociale et ethnologie</dc:title>
+                <dc:publisher>CNRS/COCOON</dc:publisher>
+                <dc:description xml:lang="fr">Domaine Anthropologie sociale et ethnologie</dc:description>
+                <dc:type>Collection</dc:type>
+                <dc:date>2017-07-04</dc:date>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+</ListSets>
+</OAI-PMH>
+    <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+        <responseDate>2018-07-05T21:44:00Z</responseDate>
+        <request metadataPrefix="olac" set="Lacito" verb="ListRecords">http://cocoon.huma-num.fr/crdo_servlet/oai-pmh</request>
+        <ListRecords>   
+        <record>
+    <header>
+        <identifier>oai:crdo.vjf.cnrs.fr:crdo-CAM_T1FBT16_IMG</identifier>
+        <datestamp>2018-03-13</datestamp>
+        <setSpec>Lacito</setSpec>
+        <setSpec>Linguistique</setSpec>
+    </header>
+    <metadata>
+        <olac:olac xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ http://www.language-archives.org/OLAC/1.1/olac.xsd">
+            <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+            <dc:rights>Copyright (c) Rivierre, Jean-Claude</dc:rights>
+            <dc:subject olac:code="cam" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Cemuhî</dc:subject>
+            <dc:language olac:code="cam" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Cemuhî</dc:language>
+            <dc:format xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:IMT">application/pdf</dc:format>
+            <dc:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:DCMIType">Text</dc:type>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/rivierre/masters/crdo-CAM_T1FBT16.pdf</dc:identifier>
+            <dc:title xml:lang="fr">Bwijo se baigne</dc:title>
+            <dc:type olac:code="primary_text" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:linguistic-type"/>
+            <dc:type olac:code="narrative" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:discourse-type"/>
+            <dc:contributor olac:code="speaker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Mme Daulo</dc:contributor>
+            <dc:contributor olac:code="researcher" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivierre, Jean-Claude</dc:contributor>
+            <dc:contributor olac:code="depositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivierre, Jean-Claude</dc:contributor>
+            <dcterms:requires xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:crdo-CAM_T1FBT16_SOUND</dcterms:requires>
+            <dcterms:accessRights>Freely available for non-commercial use</dcterms:accessRights>
+            <dcterms:license xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/2.5/</dcterms:license>
+            <dcterms:isPartOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:crdo-COLLECTION_LACITO</dcterms:isPartOf>
+            <dcterms:available xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2014-08-11</dcterms:available>
+            <dcterms:issued xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2015-07-08T21:32:33+02:00</dcterms:issued>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/exist/crdo/ark:/87895/1.17-509018</dc:identifier>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://hdl.handle.net/10670/1.mun1ii</dc:identifier>
+            <dc:identifier>https://doi.org/10.24397/PANGLOSS-0000001</dc:identifier>
+        </olac:olac>
+    </metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:crdo.vjf.cnrs.fr:crdo-CAM_T1FBT16_SOUND</identifier>
+        <datestamp>2018-04-27</datestamp>
+        <setSpec>Lacito</setSpec>
+        <setSpec>Linguistique</setSpec>
+    </header>
+    <metadata>
+        <olac:olac xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ http://www.language-archives.org/OLAC/1.1/olac.xsd">
+            <dc:contributor olac:code="researcher" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivierre, Jean-Claude</dc:contributor>
+            <dc:contributor olac:code="depositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivierre, Jean-Claude</dc:contributor>
+            <dc:contributor olac:code="speaker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Mme Daulo</dc:contributor>
+            <dc:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:DCMIType">Sound</dc:type>
+            <dc:type olac:code="primary_text" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:linguistic-type"/>
+            <dc:type xml:lang="fr">Narration</dc:type>
+            <dc:type olac:code="narrative" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:discourse-type"/>
+            <dc:type xml:lang="fr">Conte</dc:type>
+            <dc:subject xml:lang="fr">Mer</dc:subject>
+            <dc:title xml:lang="fr">Bwijo et bla bla</dc:title>
+            <dc:description xml:lang="fr">Porcelaine se baigne, plonge... ressort dans le sable et parle.</dc:description>
+            <dc:language olac:code="cam" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Cèmuhî</dc:language>
+            <dc:subject olac:code="cam" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Cèmuhî</dc:subject>
+            <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+            <dc:format xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:IMT">audio/x-wav</dc:format>
+            <dc:identifier xml:lang="fr">Cote producteur: T1 face B Piste 16</dc:identifier>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/rivierre/T1FBT16.wav</dc:identifier>
+            <dc:rights>Copyright (c) Rivierre, Jean-Claude</dc:rights>
+            <dcterms:spatial xml:lang="fr">Nouvelle-Calédonie, Pwöbei</dcterms:spatial>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:ISO3166">NC</dcterms:spatial>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:Point">east=165.18333; north=-20.88333</dcterms:spatial>
+            <dcterms:created xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">1965</dcterms:created>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/rivierre/T1FBT16.mp3</dcterms:isFormatOf>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/rivierre/masters/T1FBT16.wav</dcterms:isFormatOf>
+            <dcterms:accessRights>Freely available for non-commercial use</dcterms:accessRights>
+            <dcterms:license xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/2.5/</dcterms:license>
+            <dcterms:isPartOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:crdo-COLLECTION_LACITO</dcterms:isPartOf>
+            <dcterms:issued xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2014-12-05T18:07:10+01:00</dcterms:issued>
+            <dcterms:available xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2014-08-11</dcterms:available>
+            <dcterms:extent>PT0M21S</dcterms:extent>
+            <dcterms:isRequiredBy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:crdo-CAM_T1FBT16_IMG</dcterms:isRequiredBy>
+            <dcterms:medium>bande magnétique</dcterms:medium>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/exist/crdo/ark:/87895/1.17-475544</dc:identifier>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://hdl.handle.net/10670/1.ecynfz</dc:identifier>
+            <dc:identifier>https://doi.org/10.24397/PANGLOSS-0000003</dc:identifier>
+        </olac:olac>
+    </metadata>
+</record>
+
+
+
+<record>
+    <header>
+        <identifier>oai:crdo.vjf.cnrs.fr:cocoon-48500669-b963-3dae-8b3f-eesfsdf8f2321</identifier>
+        <datestamp>2018-12-10</datestamp>
+        <setSpec>Lacito</setSpec>
+        <setSpec>Linguistique</setSpec>
+    </header>
+    <metadata>
+        <olac:olac xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ http://www.language-archives.org/OLAC/1.1/olac.xsd">
+            <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+            <dc:contributor olac:code="researcher" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivière, Hervé</dc:contributor>
+            <dc:contributor olac:code="depositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Rivière, Hervé</dc:contributor>
+            <dc:contributor olac:code="researcher" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Camargo, Éliane</dc:contributor>
+            <dc:format xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:IMT">audio/x-wav</dc:format>
+            <dc:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:DCMIType">Sound</dc:type>
+            <dc:rights>Copyright (c) Rivière, Hervé</dc:rights>
+            <dc:subject olac:code="way" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Wayana</dc:subject>
+            <dc:title xml:lang="en">Song for the ant-sting ritual</dc:title>
+            <dc:type olac:code="primary_text" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:linguistic-type"/>
+            <dc:type olac:code="singing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:discourse-type"/>
+            <dc:contributor olac:code="speaker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Kuliaman</dc:contributor>
+            <dc:language olac:code="way" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Wayana</dc:language>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/archi/145151_MORDRE_22km.wav</dc:identifier>
+            <dc:identifier xml:lang="fr">Ancienne cote: crdo-WAY_MORDRE_SOUND</dc:identifier>
+            <dcterms:created xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">1996</dcterms:created>
+            <dcterms:extent>PT3M51S</dcterms:extent>
+            <dcterms:isRequiredBy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:cocoon-22a9c7e1-6f11-33a7-860f-2ee2c44d744c</dcterms:isRequiredBy>
+            <dcterms:spatial>French Guiana, Antécume Pata</dcterms:spatial>
+            <dcterms:isPartOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:cocoon-af3bd0fd-2b33-3b0b-a6f1-49a7fc551eb1</dcterms:isPartOf>
+            <dcterms:accessRights>Freely available for non-commercial use</dcterms:accessRights>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/archi/mp3/145151_MORDRE_44k.mp3</dcterms:isFormatOf>
+            <dcterms:issued xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2010-10-26T22:58:00+02:00</dcterms:issued>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:ISO3166">GF</dcterms:spatial>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/archi/masters/145151.wav</dcterms:isFormatOf>
+            <dcterms:available xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2010-10-26</dcterms:available>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:Point">east=-54.06938; north=3.28636</dcterms:spatial>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/exist/crdo/ark:/87895/1.5-145151</dc:identifier>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://hdl.handle.net/10670/1.g8eaa4</dc:identifier>
+            
+        </olac:olac>
+    </metadata>
+</record>
+
+
+
+<record>
+    <header>
+        <identifier>oai:crdo.vjf.cnrs.fr:cocoon-3c452cf7-2f61-3355-a51a-d3sdfsdf5e684b</identifier>
+        <datestamp>2018-12-10</datestamp>
+        <setSpec>Lacito</setSpec>
+        <setSpec>Linguistique</setSpec>
+    </header>
+    <metadata>
+        <olac:olac xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xsi:schemaLocation="http://www.language-archives.org/OLAC/1.1/ http://www.language-archives.org/OLAC/1.1/olac.xsd">
+            <dc:title xml:lang="fr">Le poulpe et le rat</dc:title>
+            <dc:contributor olac:code="depositor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Streter, Marie-Hélène</dc:contributor>
+            <dc:contributor olac:code="researcher" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Streter, Marie-Hélène</dc:contributor>
+            <dc:type olac:code="primary_text" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:linguistic-type"/>
+            <dc:format xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:IMT">audio/x-wav</dc:format>
+            <dc:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:DCMIType">Sound</dc:type>
+            <dc:contributor olac:code="speaker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:role">Streter, Cipanë</dc:contributor>
+            <dc:subject olac:code="dhv" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Drehu</dc:subject>
+            <dc:language olac:code="dhv" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Drehu</dc:language>
+            <dc:language olac:code="fra" xml:lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="olac:language">Français</dc:language>
+            <dc:rights>Copyright (c) Streter, Marie-Hélène</dc:rights>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/streter/crdo-DHV_POULPE_RAT.wav</dc:identifier>
+            <dc:publisher>Laboratoire de langues et civilisations à tradition orale</dc:publisher>
+            <dc:identifier xml:lang="fr">Ancienne cote: crdo-DHV_POULPE_RAT_SOUND</dc:identifier>
+            <dcterms:extent>PT02M27S</dcterms:extent>
+            <dcterms:created xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2011-03-28</dcterms:created>
+            <dcterms:spatial xml:lang="fr">Wé, Lifou, Nouvelle-Calédonie</dcterms:spatial>
+            <dcterms:isPartOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:cocoon-af3bd0fd-2b33-3b0b-a6f1-49a7fc551eb1</dcterms:isPartOf>
+            <dcterms:accessRights>Freely available for non-commercial use</dcterms:accessRights>
+            <dcterms:license xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/2.5/</dcterms:license>
+            <dcterms:isRequiredBy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">oai:crdo.vjf.cnrs.fr:cocoon-e50bb85e-53bc-386e-a61f-5b0858fb0b6e</dcterms:isRequiredBy>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/streter/crdo-DHV_POULPE_RAT.mp3</dcterms:isFormatOf>
+            <dcterms:isFormatOf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/data/streter/masters/crdo-DHV_POULPE_RAT.wav</dcterms:isFormatOf>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:ISO3166">NC</dcterms:spatial>
+            <dcterms:available xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2016-06-30</dcterms:available>
+            <dcterms:spatial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:Point">east=167.264940499; north=-20.9188891</dcterms:spatial>
+            <dcterms:issued xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">2017-04-14T17:20:35+02:00</dcterms:issued>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://cocoon.huma-num.fr/exist/crdo/ark:/87895/1.17-735418</dc:identifier>
+            <dc:identifier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:URI">http://hdl.handle.net/10670/1.r4dpc6</dc:identifier>
+            <dc:identifier>https://doi.org/10.24397/PANGLOSS-0000017</dc:identifier>
+        </olac:olac>
+    </metadata>
+</record>
+
+<resumptionToken completeListSize="5173" cursor="5150"/>
+</ListRecords>
+</OAI-PMH>
+</harvest>

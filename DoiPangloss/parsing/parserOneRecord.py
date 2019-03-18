@@ -15,7 +15,7 @@ root = tree.getroot()
 
 # savoir si le record contient un identifiant doi
 for identifiant in root.findall('.//dc:identifier', NAMESPACES):
-    if "https://doi.org/" in identifiant.text:
+    if "doi:" in identifiant.text:
         doiIdentifiant = identifiant.text[4:]
 
 if root.find('*/identifier', NAMESPACES) is not None:

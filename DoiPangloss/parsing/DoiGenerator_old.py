@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ETree
 import re
 from constantes import NAMESPACES
-from apiDatacite.API_Get_DataCite_Json import createDicoDoiOai
+from apiDatacite.API_Get_DataCite_DOI import extractDoiOai
 
 # --------utilisations des trois méthodes suivantes pour crééer le nom DOI à l'aide d'un compteur et retour du dernier numéro --------# --------#
 
@@ -67,7 +67,7 @@ def getLastDoiNumberFromDataCite():
     
     
     
-    dicoDoiOai = createDicoDoiOai()
+    dicoDoiOai = extractDoiOai()
     
     
     # for doi in dicoDoiOai.values():

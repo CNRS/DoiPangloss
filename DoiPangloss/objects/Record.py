@@ -86,7 +86,7 @@ class Record:
         :param url: le lien URL de la ressource sur le site Pangloss de Lacito
         :type url: str
         """
-
+        # self.doiIdentifiant = doiIdentifiant.replace('https://doi.org/','')
         self.doiIdentifiant = doiIdentifiant
         self.identifiantOAI = identifiantOAI
         self.setSpec = "Linguistique"
@@ -333,9 +333,9 @@ class Record:
         # les identifiants
         # crée la balise parente alternateIdentifiers
         alternateIdentifiers = ET.SubElement(racine, "alternateIdentifiers")
-        # crée la balise enfant alternateIdentifier avec comme attribut alternateIdentifierType="internal_ID"
+        # crée la balise enfant alternateIdentifier avec comme attribut alternateIdentifierType="internal ID"
         alternateIdentifier = ET.SubElement(alternateIdentifiers, "alternateIdentifier",
-                                            alternateIdentifierType="internal_ID")
+                                            alternateIdentifierType="internal ID")
         # le contenu de la balise est l'identifiant oai
         alternateIdentifier.text = self.identifiantOAI
 

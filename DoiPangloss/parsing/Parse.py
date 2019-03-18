@@ -20,8 +20,11 @@ def parseRecord (record):
         # extrait le nom DOI s'il existe. Sinon, doiIdentifiant est vide
         doiIdentifiant = ""
         for identifiant in record.findall('.//dc:identifier', NAMESPACES):
-            if "https://doi.org/" in identifiant.text:
-                doiIdentifiant = identifiant.text[16:]
+            if "doi:" in identifiant.text:
+                doiIdentifiant_temp = identifiant.text
+                doiIdentifiant = doiIdentifiant_temp.replace('doi:','')
+                print ('identifiant doi : ', doiIdentifiant)
+                
 
         # --------Parse header--------#
 
