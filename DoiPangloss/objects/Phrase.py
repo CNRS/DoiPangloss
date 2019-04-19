@@ -45,7 +45,7 @@ class Phrase:
         racine = ET.Element("resource", xmlns="http://datacite.org/schema/kernel-4")
         racine.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
         racine.set("xsi:schemaLocation",
-                               "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd")
+                               "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd")
 
         # création de la balise identifier contenant le DOI
         if self.doiPhrase:
